@@ -1,0 +1,44 @@
+{
+  "name": "huiiiy-design",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "buildlib": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.2",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@types/color": "^3.0.3",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@vitejs/plugin-react": "^4.0.1",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "typescript": "^5.1.3",
+    "vite": "^4.3.9",
+    "react-router-dom": "^6.13.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "color": "^4.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "peerDependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "color": "^4.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-jsx",
+    "outDir": "lib",
+    "declaration": true,
+    "declarationDir": "lib",
+    "noEmit": true
+  },
+  "include": [
+    "src/packages","src/theme.d.ts"
+  ]
+}
